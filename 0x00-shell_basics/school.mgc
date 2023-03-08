@@ -1,0 +1,2 @@
+$ file -m school.mgc school_data_file
+school_data_file: data
