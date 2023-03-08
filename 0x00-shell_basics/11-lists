@@ -1,2 +1,2 @@
-echo "Listing files in /boot directory:"
+#!/bin/bash
 ls -al /boot
