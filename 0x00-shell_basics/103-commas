@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1a --group-directories-first | awk '{printf "%s%s%s",sep,$0,(NR%8==0 || NR==n)?"\n":", ";sep=" "}' n=$(ls -1a | wc -l)
