@@ -1,1 +1,1 @@
-This is about learning Shell script that concerns expansion, variables, aliasing and technical documentation
+Added githelp as a script that automatically does the git operations : gitwork <commit-msg>
