@@ -1,2 +1,7 @@
 #!/bin/bash
-alias gitwork='git add . && git commit -m "${1:-work} && git push"'
+
+read -p "Enter commit message: " message
+
+git add .
+git commit -m "$message"
+git push
