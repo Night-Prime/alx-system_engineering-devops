@@ -1,2 +1,2 @@
 #!/bin/bash
-alias gitwork='git add . && git commit -m "${1:-work}" && git push'
+alias gitwork='git add . && git commit -m "${1:-work}"'
